@@ -18,4 +18,5 @@ class Bot < ActiveRecord::Base
   def self.find_tweet id
     CLIENT.status(id)
   end
+
 end
